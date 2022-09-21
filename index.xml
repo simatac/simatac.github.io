@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/index.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-09-20T22:31:55-07:00</updated><id>http://localhost:4000/index.xml</id><entry><title type="html">Launching Simatac</title><link href="http://localhost:4000/launching-simatac" rel="alternate" type="text/html" title="Launching Simatac" /><published>2022-09-16T15:22:05-07:00</published><updated>2022-09-16T15:22:05-07:00</updated><id>http://localhost:4000/launching-simatac</id><content type="html" xml:base="http://localhost:4000/launching-simatac"><![CDATA[<p>Simatac is a continuous Breach and Attack Simulation platform to enable you discover attacks you cannot detect.</p>
+
+<p>Have you noticed when an attack is found and described, the vendor’s security research team writes a fairly accurate document, update it over time with new discovers and provide a list of Indicator of Compromises (IoC) in the end of the document?</p>
+
+<p>We have too, and we realized that this information was hard to use:</p>
+<ul>
+  <li>IoC change fairly quickly. Using them is better than nothing, but what matters is capturing the attack logic</li>
+  <li>The attack description describes a logic that cannot be automated</li>
+  <li>Hard to get data for the attack, how does it look like with your Firewall logs? Windows logs? Network traffic (pcap) etc.</li>
+</ul>
+
+<p>This is why we built Simatac, to provide a platform where Attacks are universaly described and actionable. We created the Breach and Attack Simulation (BAS) programming language to capture the Attack logic and understand all it does, while creating the Data Footprint at the same time!</p>
+
+<p>Because attacks can be described accurately, Simatac is able to Simulate technologies and provide how the attack would have looked with those various systems. We have a virtual clock which handles the Attack time duration and start time, to then submit to various log analytic platforms, SIEM/SOAR/XDR the data generated so detections can be tested accurately.</p>
+
+<p>This gives to teams a hands-on training to learn and improve the overall Organization’s security posture, but also give to software developer how their detection technology could react with certain attack patterns.</p>]]></content><author><name>Sebastien Tricaud</name></author><category term="company" /><summary type="html"><![CDATA[Simatac is a continuous Breach and Attack Simulation platform to enable you discover attacks you cannot detect.]]></summary></entry></feed>

@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="shortcut icon" href="/assets/images/favicon.png"/>
+  <title> Simatac Inc. - Continuous Breach and Attack Simulation Platform </title>
+  <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css"/>
+  <link rel="stylesheet" type="text/css" href="/assets/css/plugins.css"/>
+  <link rel="stylesheet" type="text/css" href="/assets/revolution/css/settings.css"/>
+  <link rel="stylesheet" type="text/css" href="/assets/revolution/css/layers.css"/>
+  <link rel="stylesheet" type="text/css" href="/assets/revolution/css/navigation.css"/>
+  <link rel="stylesheet" type="text/css" href="/assets/type/type.css"/>
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css"/>
+  <!--page wise css-->
+  <link rel="stylesheet" type="text/css" href="/assets/css/color/orange.css">
+    
+    <link rel="stylesheet" type="text/css" href="/assets/css/font/font2.css">
+    
+  
+  <!--/.page wise css-->
+  
+</head>
+<body >
+  <div class="content-wrapper">
+    <div class="content-wrapper">
+<nav
+  class="navbar  absolute transparent inverse-text  navbar-hover-opacity navbar-expand-lg">
+  <div
+    class=" container  flex-row justify-content-center">
+    <div class="navbar-brand">
+      <a href="http://localhost:4000">
+        
+        <img src="/assets/images/logo-light.png"
+          srcset="/assets/images/logo-light.png 1x, /assets/images/logo-light@2x.png 2x"
+          class=" logo-light "
+          alt="Simatac Inc." />
+        
+        <img src="/assets/images/logo.png"
+          srcset="/assets/images/logo.png 1x, /assets/images/logo@2x.png 2x"
+          class=" logo-dark  "
+          alt="Simatac Inc." />
+      </a>
+    </div>
+    <div class="navbar-other ml-auto order-lg-3">
+      <ul class="navbar-nav flex-row align-items-center" data-sm-skip="true">
+        <li class="nav-item">
+          <div class="navbar-hamburger d-lg-none d-xl-none ml-auto">
+            <button class="hamburger animate plain" data-toggle="offcanvas-nav"><span></span></button>
+          </div>
+        </li>
+        
+        <li class="dropdown search-dropdown position-static nav-item">
+          <a href="#" role="button" class="collapse-toggle" data-toggle="collapse" data-target=".search-dropdown-menu"
+            aria-haspopup="true" aria-expanded="false"><i class="jam jam-search"></i></a>
+          <div class="dropdown-menu search-dropdown-menu w-100 collapse">
+            <div class="form-wrapper">
+              <form class="inverse-text">
+                <input type="text" id="search-input" class="form-control" placeholder="Search blog posts.." />
+                <i class="dropdown-close jam jam-close"></i>
+              </form>
+              <!-- /.search-form -->
+            </div>
+            <!-- /.form-wrapper -->
+            <ul id="results-container" class="position-static"></ul>
+          </div>
+        </li>
+        <li class="nav-item"><button class="plain" data-toggle="offcanvas-info"><i class="jam jam-info"></i></button>
+        </li>
+      </ul>
+      <!-- /.navbar-nav -->
+    </div>
+    <!-- /.navbar-other -->
+    <div class="navbar-collapse offcanvas-nav">
+      <div class="offcanvas-header d-lg-none d-xl-none">
+        <a href="http://localhost:4000">
+          <img src="/assets/images/logo-light.png"
+            srcset="/assets/images/logo-light.png 1x, /assets/images/logo-light@2x.png 2x"
+            alt="Simatac Inc." /></a>
+        <button class="plain offcanvas-close offcanvas-nav-close"><i class="jam jam-close"></i></button>
+      </div>
+      <ul class="navbar-nav  mx-auto ">
+        
+        
+        
+        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="/">Home</a>
+          <ul class="dropdown-menu">
+            
+            
+            
+            <li><a class="dropdown-item" href="/">Landing Page</a></li>
+            
+            
+          </ul>
+        </li>
+        
+        
+        
+        
+        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="/">Company</a>
+          <ul class="dropdown-menu">
+            
+            
+            
+            <li><a class="dropdown-item" href="/company/team">Team</a></li>
+            
+            <li><a class="dropdown-item" href="/company/about">About us</a></li>
+            
+            <li><a class="dropdown-item" href="/company/contact">Contact</a></li>
+            
+            
+          </ul>
+        </li>
+        
+        
+        
+        
+        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="/">Blog</a>
+          <ul class="dropdown-menu">
+            
+            
+            
+            <li><a class="dropdown-item" href="/blogs/index">Blog</a></li>
+            
+            
+          </ul>
+        </li>
+        
+        
+      </ul>
+      <!-- /.navbar-nav -->
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+<!-- /.navbar -->
+<div class="offcanvas-info inverse-text">
+  <button class="plain offcanvas-close offcanvas-info-close"><i class="jam jam-close"></i></button>
+  <a href="http://localhost:4000">
+    <img src="/assets/images/logo-light.png"
+      srcset="/assets/images/logo-light.png 1x, /assets/images/logo-light@2x.png 2x"
+      class=" logo-light "
+      alt="Simatac Inc." />
+  </a>
+  <div class="space30"></div>
+  <p>Simatac is a continuous Breach and Attack Simulation Platform which enables you to discover attacks you cannot detect.</p>
+  <div class="space20"></div>
+  <div class="widget">
+    <h5 class="widget-title">Contact Info</h5>
+    <address> Simatac Inc. <br>296 Reichling Avenue,<br /> Pacifica, CA 94044, USA<div class="space20"></div>
+      <a href="mailto:contact@simatac.io" class="nocolor"></a><br />
+      +1 650-542-0831
+    </address>
+  </div>
+  <!-- /.widget -->
+  <div class="widget">
+    
+    <h3 class="widget-title">Learn More</h3>
+    
+    <ul class="list-unstyled">
+      
+      <li><a href="company/about" class="nocolor">About Us</a></li>
+      
+      <li><a href="company/team" class="nocolor">Our Team</a></li>
+      
+    </ul>
+  </div>
+  <!-- /.widget -->
+  <div class="widget">
+    
+    <h3 class="widget-title">Follow Us</h3>
+    
+    <ul class="social social-mute social-s ml-auto">
+      
+      <li><a href="https://twitter.com/simatacinc"><i class="jam jam-twitter"></i></a></li>
+      
+    </ul>
+  </div>
+  <!-- /.widget -->
+</div>
+<!-- /.offcanvas-info -->
+
+
+<div class="wrapper dark-wrapper">
+  <div class="rev_slider_wrapper fullwidth-container">
+    <div id="slider4" class="rev_slider fullwidthbanner" data-version="5.4.7">
+      <ul>
+        <li data-transition="fade" data-thumb="">
+          <img src="assets/images/pano-sf.jpg" alt="" />
+    
+          <div class="tp-caption font-weight-600 color-white" 
+             data-x="['left','left','left','center']" 
+             data-y="middle" 
+             data-hoffset="['50','50','30','0']" 
+             data-voffset="['-90','-90','-90','-70']" 
+             data-fontsize="['44','44','38','30']" 
+             data-lineheight="['54','54','48','40']" 
+             data-width="['500','500','400','340']" 
+             data-textAlign="['left','left','left','center']" 
+             data-whitespace="['normal','normal','normal','normal']" 
+             data-frames='[{"delay":1500,"speed":1200,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' 
+             data-responsive="on" 
+             data-responsive_offset="on" style="z-index: 9;">Continuous Breach and Attack Simulation Platform 
+        </div>
+    <!-- /.tp-caption -->
+    
+	     
+          <div class="tp-caption font-weight-400 color-white" 
+             data-x="['left','left','left','center']" 
+             data-y="middle" 
+             data-hoffset="['50','50','30','0']" 
+             data-voffset="['60','60','30','45']" 
+             data-fontsize="['26','26','19','18']" 
+             data-lineheight="['36','36','29','28']" 
+             data-width="['500','500','400','340']" 
+             data-textAlign="['left','left','left','center']" 
+             data-whitespace="['normal','normal','normal','normal']" 
+             data-frames='[{"delay":2000,"speed":1200,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' 
+             data-responsive="on" 
+             data-responsive_offset="on" style="z-index: 9;">Simatac enables you to discover attacks you cannot detect. 
+        </div>
+    <!-- /.tp-caption -->
+    
+    
+    <div class="d-inline-block" data-aos="fade-up" data-aos-delay="1800">
+          <a class="tp-caption btn btn-l btn-white btn-icon-left btn-strong-hover scroll" 
+          data-x="['left','left','left','center']" 
+          data-y="middle" 
+          data-hoffset="['50','50','30','0']" 
+          data-voffset="['165','165','135','140']" 
+          data-width="['auto','auto','auto','auto']" 
+          data-textAlign="['center','center','center','center']" 
+          data-frames='[{"delay":2500,"speed":1200,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' 
+          data-responsive="on" 
+          data-responsive_offset="on" style="z-index: 9;" href="#howitworks"><i class="jam jam-book"></i> Learn How 
+        </a>
+      </div>
+    <!-- /.tp-caption -->
+      
+    
+        </li>
+      </ul>
+      <div class="tp-bannertimer tp-bottom"></div>
+    </div>
+    <!-- /.rev_slider -->
+  </div>
+  <!-- /.rev_slider_wrapper -->
+</div>
+<!-- /.wrapper -->
+
+
+<div class="wrapper light-wrapper">
+  <div class="container inner">
+    
+    <h2 class="title-color color-gray text-center">Supported Technologies</h2>
+    <div class="space20"></div>
+      <div class="carousel owl-carousel techs" data-margin="30" data-loop="true" data-dots="false" data-autoplay="true" data-autoplay-timeout="800" data-responsive='{"0":{"items": "2"}, "768":{"items": "4"}, "992":{"items": "5"}, "1140":{"items": "6"}}'>
+  
+  <div class="item pl-15 pr-15">
+  	<img src="/assets/images/techs/apache.png" alt="/assets/images/techs/apache.png"/>
+  </div>
+  
+  <div class="item pl-15 pr-15">
+  	<img src="/assets/images/techs/aws.png" alt="/assets/images/techs/aws.png"/>
+  </div>
+  
+  <div class="item pl-15 pr-15">
+  	<img src="/assets/images/techs/bind9.png" alt="/assets/images/techs/bind9.png"/>
+  </div>
+  
+  <div class="item pl-15 pr-15">
+  	<img src="/assets/images/techs/bitdefender.svg" alt="/assets/images/techs/bitdefender.svg"/>
+  </div>
+  
+  <div class="item pl-15 pr-15">
+  	<img src="/assets/images/techs/box.svg" alt="/assets/images/techs/box.svg"/>
+  </div>
+  
+  <div class="item pl-15 pr-15">
+  	<img src="/assets/images/techs/bluecoat.png" alt="/assets/images/techs/bluecoat.png"/>
+  </div>
+  
+  <div class="item pl-15 pr-15">
+  	<img src="/assets/images/techs/vmware-carbon-black-logo.png" alt="/assets/images/techs/vmware-carbon-black-logo.png"/>
+  </div>
+  
+  <div class="item pl-15 pr-15">
+  	<img src="/assets/images/techs/cequence_logo.svg" alt="/assets/images/techs/cequence_logo.svg"/>
+  </div>
+  
+  <div class="item pl-15 pr-15">
+  	<img src="/assets/images/techs/cisco.svg" alt="/assets/images/techs/cisco.svg"/>
+  </div>
+  
+  <div class="item pl-15 pr-15">
+  	<img src="/assets/images/techs/corelight.png" alt="/assets/images/techs/corelight.png"/>
+  </div>
+  
+  <div class="item pl-15 pr-15">
+  	<img src="/assets/images/techs/crowdstrike.svg" alt="/assets/images/techs/crowdstrike.svg"/>
+  </div>
+  
+  <div class="item pl-15 pr-15">
+  	<img src="/assets/images/techs/cylance-logo.svg" alt="/assets/images/techs/cylance-logo.svg"/>
+  </div>
+  
+  <div class="item pl-15 pr-15">
+  	<img src="/assets/images/techs/duo.png" alt="/assets/images/techs/duo.png"/>
+  </div>
+  
+  <div class="item pl-15 pr-15">
+  	<img src="/assets/images/techs/fireeye.png" alt="/assets/images/techs/fireeye.png"/>
+  </div>
+  
+  <div class="item pl-15 pr-15">
+  	<img src="/assets/images/techs/fortinet-logo.svg" alt="/assets/images/techs/fortinet-logo.svg"/>
+  </div>
+  
+  <div class="item pl-15 pr-15">
+  	<img src="/assets/images/techs/googlecloud.png" alt="/assets/images/techs/googlecloud.png"/>
+  </div>
+  
+  <div class="item pl-15 pr-15">
+  	<img src="/assets/images/techs/mcafee-epo.png" alt="/assets/images/techs/mcafee-epo.png"/>
+  </div>
+  
+  <div class="item pl-15 pr-15">
+  	<img src="/assets/images/techs/netflow-logic.png" alt="/assets/images/techs/netflow-logic.png"/>
+  </div>
+  
+  <div class="item pl-15 pr-15">
+  	<img src="/assets/images/techs/nx-logo.svg" alt="/assets/images/techs/nx-logo.svg"/>
+  </div>
+  
+  <div class="item pl-15 pr-15">
+  	<img src="/assets/images/techs/microsoft-365.jpg" alt="/assets/images/techs/microsoft-365.jpg"/>
+  </div>
+  
+  <div class="item pl-15 pr-15">
+  	<img src="/assets/images/techs/okta.svg" alt="/assets/images/techs/okta.svg"/>
+  </div>
+  
+  <div class="item pl-15 pr-15">
+  	<img src="/assets/images/techs/pan-logo-dark.svg" alt="/assets/images/techs/pan-logo-dark.svg"/>
+  </div>
+  
+  <div class="item pl-15 pr-15">
+  	<img src="/assets/images/techs/proofpoint.svg" alt="/assets/images/techs/proofpoint.svg"/>
+  </div>
+  
+  <div class="item pl-15 pr-15">
+  	<img src="/assets/images/techs/qualys.svg" alt="/assets/images/techs/qualys.svg"/>
+  </div>
+  
+  <div class="item pl-15 pr-15">
+  	<img src="/assets/images/techs/servicenow.svg" alt="/assets/images/techs/servicenow.svg"/>
+  </div>
+  
+  <div class="item pl-15 pr-15">
+  	<img src="/assets/images/techs/snowflake-black.svg" alt="/assets/images/techs/snowflake-black.svg"/>
+  </div>
+  
+  <div class="item pl-15 pr-15">
+  	<img src="/assets/images/techs/sonicwall.svg" alt="/assets/images/techs/sonicwall.svg"/>
+  </div>
+  
+  <div class="item pl-15 pr-15">
+  	<img src="/assets/images/techs/splunk-logo-dark.svg" alt="/assets/images/techs/splunk-logo-dark.svg"/>
+  </div>
+  
+  <div class="item pl-15 pr-15">
+  	<img src="/assets/images/techs/tanium.svg" alt="/assets/images/techs/tanium.svg"/>
+  </div>
+  
+  <div class="item pl-15 pr-15">
+  	<img src="/assets/images/techs/trend-micro.svg" alt="/assets/images/techs/trend-micro.svg"/>
+  </div>
+  
+  <div class="item pl-15 pr-15">
+  	<img src="/assets/images/techs/zscaller.svg" alt="/assets/images/techs/zscaller.svg"/>
+  </div>
+  
+</div>
+
+      <div class="space140"></div>
+    <!-- /.owl-carousel -->
+    
+  	
+    <div class="features-area">
+        <div class="row">
+        	<div class="col-md-7 mx-auto">
+		        <h2 class="title-color color-gray text-center">The Simatac SaaS Platform</h2>
+				<h3 class="display-3 text-center">Simatac enables you to create, download and schedule Attack Data footprint. Built by the creators of the Breach Attack and Simulation (BAS) programming language.</h3>
+				<div class="space40"></div>
+        	</div>
+        </div>	
+		<div class="row gutter-60 text-center">
+          
+		   <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+		  	<span class="icon icon-blob icon-blob-blue color-blue mb-30"><i class="icofont-touch"></i><span class="step bg-blue">1</span></span>
+		    <h5>Easy to Use</h5>
+		    <p>Simatac does not interact with any equipment. Select amongst existing attack scenarios or create your own. Get Data right away!</p>
+		   </div>
+          
+		   <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+		  	<span class="icon icon-blob icon-blob-orange color-orange mb-30"><i class="icofont-rocket-alt-2"></i><span class="step bg-orange">2</span></span>
+		    <h5>Fast Generation</h5>
+		    <p>Get the custom Attack Data Footprint in seconds. Test your Software Resilience right away.</p>
+		   </div>
+          
+		   <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+		  	<span class="icon icon-blob icon-blob-green color-green mb-30"><i class="icofont-calendar"></i><span class="step bg-green">3</span></span>
+		    <h5>Schedule</h5>
+		    <p>Schedule the Attack Data as you like. Make sure you can detect attacks regularly, or when you just installed a new equipment.</p>
+		   </div>
+          
+		</div>
+    </div>
+    
+    
+    
+    <div class="two-column-one" id="howitworks">
+    <div class="row">
+    <div class="col-md-7 mx-auto">
+	    <div class="space180"></div>
+		<h2 class="title-color color-gray text-center">How It Works</h2>
+		<h3 class="display-3 mb-0 text-center">Use our Attack Scenarios library to improve your organization's Security Posture.</h3>
+		<div class="space50"></div>
+    </div>
+    </div>
+	<div class="row align-items-center">
+	  
+	  <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+	    <figure><img src="/assets/images/architecture.png" alt="How It Works"/></figure>
+	  </div>
+	  
+	  <div class="space40 d-lg-none"></div>
+	  <div class="col-lg-6 pl-60 pl-md-15">
+	  
+    <div class="d-flex flex-row justify-content-center">
+      <div>
+        <div class="icon icon-svg mr-25">
+          <img src="/assets/images/icons/co-book.png" alt="How It Works">
+        </div>
+      </div>
+    
+	    <div data-aos="fade-up" data-aos-delay="800">
+	      <h4>Large Attack Library</h4>
+	      <p>Simatac offers an up-to-date Attack Library which you can use, customize or create your own.
+</p>
+	    </div>
+      </div>
+       
+    <div class="d-flex flex-row justify-content-center">
+      <div>
+        <div class="icon icon-svg mr-25">
+          <img src="/assets/images/icons/co-calendar.png" alt="How It Works">
+        </div>
+      </div>
+    
+	    <div data-aos="fade-up" data-aos-delay="800">
+	      <h4>Schedule the Attack data ingestion</h4>
+	      <p>You want a Phishing Attack sent to your Log Management solution every Monday? no problem! Schedule it your way, and send it right away!
+</p>
+	    </div>
+      </div>
+       
+    <div class="d-flex flex-row justify-content-center">
+      <div>
+        <div class="icon icon-svg mr-25">
+          <img src="/assets/images/icons/of-diagram-1.png" alt="How It Works">
+        </div>
+      </div>
+    
+	    <div data-aos="fade-up" data-aos-delay="800">
+	      <h4>Accurate Reporting</h4>
+	      <p>Know what is being detected and what is not. Helpful to keep detection consistency when migrating your SIEM/SOAR/XDR.
+</p>
+	    </div>
+      </div>
+       
+	  </div>
+	</div>
+	<!--/.row -->
+    </div>
+  
+  </div>
+</div>
+<!--/counter-->
+<div class="wrapper bg-opacity-default">
+  <div class="container">
+
+    
+
+  </div>
+
+</div>
+
+<!--/counter-->
+<div class="wrapper light-wrapper">
+  <div class="container inner">
+    <!--/testimonials-->
+    
+      <!--/.testimonials-->
+    <div class="faq-area">
+    
+    </div>
+  </div>
+</div>
+<!--contact-->
+
+  <div class="wrapper image-wrapper bg-auto no-overlay bg-image text-center" data-image-src="/assets/images/art/map.png">
+    <div class="container inner">
+      <div class="row">
+        <div class="col-lg-10 offset-lg-1">
+          <h2 class="title-color color-gray text-center">Contact Us</h2>
+          <h3 class="display-3">'Let's start the conversation! <br class="d-none d-lg-block">We are happy to provide you guidance to help improve your Security Posture.'
+</h3>
+          <div class="space50"></div>
+          <div class="row text-center gutter-60">
+            
+            <div class="col-md-4">
+             
+              <div class="icon icon-svg mb-20">
+                <img src="/assets/images/icons/ui-gps.png" alt="/assets/images/icons/ui-gps.png"/>
+              </div>
+              
+              
+               <p class="mb-0">296 Reichling Avenue<br> Pacifica, CA 94044</p>
+              
+                            
+              
+            </div>
+            
+            <div class="col-md-4">
+             
+              <div class="icon icon-svg mb-20">
+                <img src="/assets/images/icons/co-telephone.png" alt="/assets/images/icons/co-telephone.png"/>
+              </div>
+              
+              
+               <p class="mb-0">+1 650-542-0831</p>
+              
+                            
+              
+            </div>
+            
+            <div class="col-md-4">
+             
+              <div class="icon icon-svg mb-20">
+                <img src="/assets/images/icons/co-email-5.png" alt="/assets/images/icons/co-email-5.png"/>
+              </div>
+              
+              
+              
+              <p class="mb-0"><a class="nocolor" href="mailto:contact@simatac.io">contact@simatac.io</a></p>
+                            
+              
+            </div>
+            
+            <!--/column -->
+          </div>
+          <!--/.row -->
+        </div>
+        <!-- /column -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </div>
+  <!-- /.wrapper -->
+  
+  <footer class=" dark-wrapper inverse-text ">
+    <div class="container inner">
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <div class="widget">
+            <h3 class="widget-title">Popular Posts</h3>
+            <ul class="image-list">
+              
+              <li>
+                
+                <figure class="rounded">
+                  <a href="/launching-simatac">
+                    <img src="/assets/images/simatac-logo.png" alt="Launching Simatac"/>
+                  </a>
+                </figure>
+                
+                <div class="post-content">
+                  
+                   <h6 class="post-title mb-0"><a href="/launching-simatac">Launching Simatac</a></h6>
+                  
+                  
+                  <div class="meta">
+                    <span class="date"><i class="jam jam-clock"></i>16 Sep 2022</span>
+                  </div>
+                  
+                </div>
+              </li>
+              
+            </ul>
+            <!-- /.image-list -->
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /column -->
+        <div class="col-md-6 col-lg-3">
+          <div class="widget">
+            <h3 class="widget-title">Tags</h3>
+            <ul class="list-unstyled tag-list">
+            
+            
+              
+            
+            </ul>
+          </div>
+          <div class="widget">
+            <h3 class="widget-title">Categories</h3>
+            <ul class="unordered-list column-2">
+            
+            
+            <li>
+              <a class="text-capitalize nocolor" href="/category/company/">company</a>
+            </li>
+            
+            </ul>
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /column -->
+        <div class="col-md-6 col-lg-3">
+          <div class="widget">
+            <h3 class="widget-title">Get in Touch</h3>
+            <address>Simatac Inc. <br>296 Reichling Avenue,<br /> Pacifica, CA 94044, USA</address>
+            <a href="mailto:contact@simatac.io">contact@simatac.io</a><br /> +1 650-542-0831
+          </div>
+          <!-- /.widget -->
+          <div class="widget">
+            
+            <h3 class="widget-title">Follow Us</h3>
+            
+            <ul class="social social-mute social-s ml-auto">
+              
+              <li><a href="https://twitter.com/simatacinc"><i class="jam jam-twitter"></i></a></li>
+              
+            </ul>
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /column -->
+        <div class="col-md-6 col-lg-3">
+          <div class="widget">
+            
+            <h3 class="widget-title">Learn More</h3>
+            
+            <ul class="list-unstyled">
+             
+              <li><a href="company/about" class="nocolor">About Us</a></li>
+             
+              <li><a href="company/team" class="nocolor">Our Team</a></li>
+             
+            </ul>
+          </div>
+          <!-- /.widget -->
+          <div class="widget">
+            
+            <h3 class="widget-title">Need Help?</h3>
+            
+            <ul class="list-unstyled">
+             
+              <li><a href="company/about" class="nocolor">About Us</a></li>
+             
+              <li><a href="company/team" class="nocolor">Our Team</a></li>
+             
+            </ul>
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /column -->
+      </div>
+      <!--/.row -->
+      <div class="space50"></div>
+      
+      <p class="text-center mb-0">© 2022 Simatac Inc. All rights reserved.</p>
+      
+    </div>
+    <!-- /.container -->
+  </footer>
+</div>    
+
+  </div>
+  <script src="/assets/js/jquery.min.js"></script>
+  <script src="/assets/js/popper.min.js"></script>
+  <script src="/assets/js/bootstrap.min.js"></script>
+  <script src="/assets/revolution/js/jquery.themepunch.tools.min.js"></script>
+  <script src="/assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
+  <script src="/assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+  <script src="/assets/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+  <script src="/assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+  <script src="/assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+  <script src="/assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+  <script src="/assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+  <script src="/assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+  <script src="/assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+  <script src="/assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
+  <script src="/assets/js/plugins.js"></script>
+  <script src="/assets/js/simple-jekyll-search.min.js"></script>
+  <script src="/assets/js/scripts.js"></script>
+</body>
+</html>
